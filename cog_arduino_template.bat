@@ -1,0 +1,1 @@
+cog -d -D prefix=Test -o TestMgr.h cog_arduino_template.h
