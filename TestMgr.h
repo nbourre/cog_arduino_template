@@ -24,5 +24,7 @@
 // Prototypes
 ////////////////////////////////////////////////////////////////////////////////
 BOOL TestMgr()
-void TestMgrTask()
+BOOL TestMgrTask()
 BOOL TestMgrConfigure()
+
+#endif

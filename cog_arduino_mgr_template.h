@@ -1,4 +1,4 @@
-//[[[cog import cog]]]
+﻿//[[[cog import cog]]]
 //[[[end]]]
 // This is file has been prepared by a cog script.
 
@@ -33,11 +33,13 @@ cog.outl("#define " + "$$MGR_H".replace ('$$', prefix, 1).upper())
 ////////////////////////////////////////////////////////////////////////////////
 /*[[[cog
 
-fnames = ['BOOL $$Mgr()', 'void $$MgrTask()', 'BOOL $$MgrConfigure()']
+fnames = ['BOOL $$Mgr()', 'BOOL $$MgrTask()', 'BOOL $$MgrConfigure()']
 for fn in fnames:
     cog.outl(fn.replace('$$', prefix, 1))
+cog.outl("\n#endif")
+
 ]]]*/
 
-#endif
+
 
 //[[[end]]]
