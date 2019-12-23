@@ -33,7 +33,7 @@ cog.outl("#define " + "$$MGR_H".replace ('$$', prefix, 1).upper())
 ////////////////////////////////////////////////////////////////////////////////
 /*[[[cog
 
-fnames = ['BOOL $$Mgr()', 'BOOL $$MgrTask()', 'BOOL $$MgrConfigure()']
+fnames = ['BOOL $$Mgr();', 'BOOL $$MgrTask();', 'BOOL $$MgrConfigure();']
 for fn in fnames:
     cog.outl(fn.replace('$$', prefix, 1))
 cog.outl("\n#endif")
